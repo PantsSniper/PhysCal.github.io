@@ -1,21 +1,44 @@
 Development Timeline
 
+Proto Proto Pre Alpha Baby Stage (Prep):
+- [] gather all neccesary assets
+      - S[x] P[] Github
+      - S[x] P[] web-enabled IDE/Text Editor
+      - S[x] P[] Knick-Knack-Knowledge of JS
+      - [] First calculation to be implemented on the firstpage
+      - 
 
-Alter:
-• Proto Proto Pre Alpha Baby Stage
+- [] Figure out physical design on webpage (programming calculations can occur independently, but this is important)
+    ( Entry page with link to kinematics? first page has every calculation on it? etc. need design documentation)
+    (example: first page is landing page, has links to each type of calc, navbar with kinematics button, dropdown menu with 
+    individual calcs?)
 
-Begin development. Set up accounts on necessary sites. I learn programming and help Stove learn what he needs with physics.
-Decide on visual format, layout, how shit will look/how that’s implementable.
-Start actual programming with the kinematics section (balls flying, basic motion)
-Debug and perfect kinematics section
-Begin Dynamics (forces)
-Debug and perfect dynamics
-Begin Energy and Momentum (This, I believe, will be the most challenging one)
-Debug and perfect En&Mo
-Begin Rotational Motion (Will encompass or relate back to a lot of previous material, may be a challenge)
-Test that the UI works well and that calculations are accurate and capable of taking into account all possible variations on a subject (will be done during initial development of section, but a final runthrough won’t hurt) Here development can continue into the next stage, or we can spread the completed section to friends of ours who would find it useful/check it out. This would be for further bugtesting/getting the word out there. At present I think it should only be spread around if it’s a web based program but that may change. Decisions can be made in time but I think continuing development on an up to completion would work much better than releasing it half done and going from there.
-• Alpha Stage
+Proto Alpha Baby Stage (Design Implementation):
+- [] Create physical web page designs and web forms using (possibly incomplete) functions for visuals.
 
-Begin development of Electromagnetism section
-Proceed along the E&M subjects as we did with Mechanics (will require brushing up by me). • Launch Version
-Includes full calculator support for Mechanics and E&M, while providing the base for future iterations and features (listed above)
+Pre Alpha Stage (Substance Implementation):
+- [] create kinematics calculation document and [] input validation document (balls flying, basic motion)
+- [] implement kinematics calculation and [] input validation documents
+- [] complete kinematics webpage and related documents, debug and test until thoroughly tested
+
+- [] Begin Dynamics (forces)
+- [] Debug and perfect dynamics
+- [] Begin Energy and Momentum (This, I believe, will be the most challenging one)
+- [] Debug and perfect En&Mo
+- [] Begin Rotational Motion (Will encompass or relate back to a lot of previous material, may be a challenge)
+
+Alpha Stage (Step back, check Implementation):
+- Test that the UI works well and that calculations are accurate and capable of taking into account 
+all possible variations on a subject (will be done during initial development of section, but a final runthrough won’t hurt) 
+Here development can continue into the next stage, or we can spread the completed section to friends of ours who would find it 
+useful/check it out. This would be for further bugtesting/getting the word out there. At present I think it should only be spread 
+around if it’s a web based program but that may change. Decisions can be made in time but I think continuing development on an 
+up to completion would work much better than releasing it half done and going from there.
+
+- [] Begin development of Electromagnetism section
+- [] Proceed along the E&M subjects as we did with Mechanics (will require brushing up by me). • Launch Version
+- [] Includes full calculator support for Mechanics and E&M, while providing the base for future iterations and features (listed above)
+
+Beta Stage (Fairly near completion, testing is broad and successful):
+
+Gold (Effectively finished, ready for maintating, ptaching, and feature addition):
