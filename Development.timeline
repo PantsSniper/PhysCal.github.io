@@ -1,1 +1,21 @@
 Development Timeline
+
+
+Alter:
+• Proto Proto Pre Alpha Baby Stage
+
+Begin development. Set up accounts on necessary sites. I learn programming and help Stove learn what he needs with physics.
+Decide on visual format, layout, how shit will look/how that’s implementable.
+Start actual programming with the kinematics section (balls flying, basic motion)
+Debug and perfect kinematics section
+Begin Dynamics (forces)
+Debug and perfect dynamics
+Begin Energy and Momentum (This, I believe, will be the most challenging one)
+Debug and perfect En&Mo
+Begin Rotational Motion (Will encompass or relate back to a lot of previous material, may be a challenge)
+Test that the UI works well and that calculations are accurate and capable of taking into account all possible variations on a subject (will be done during initial development of section, but a final runthrough won’t hurt) Here development can continue into the next stage, or we can spread the completed section to friends of ours who would find it useful/check it out. This would be for further bugtesting/getting the word out there. At present I think it should only be spread around if it’s a web based program but that may change. Decisions can be made in time but I think continuing development on an up to completion would work much better than releasing it half done and going from there.
+• Alpha Stage
+
+Begin development of Electromagnetism section
+Proceed along the E&M subjects as we did with Mechanics (will require brushing up by me). • Launch Version
+Includes full calculator support for Mechanics and E&M, while providing the base for future iterations and features (listed above)
