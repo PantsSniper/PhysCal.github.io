@@ -1,0 +1,67 @@
+Possible Answers:
+
+Initial position (xi), Final position (xf), Velocity (v), Time (t), Acceleration (a), Initial velocity (vi), 
+Final velocity (vf), Distance travelled (d)
+
+
+
+Variable entry and equation permutations:
+
+// Use of the symbol || is meant to indicate the word "OR", and is equivalent to indicating a split situation
+// Use of the word or is used only to indicate the presence of a drop down menu to choose between two variables (a and d)
+
+xf: xi, v, t, a
+
+xf = xi + v*t + a*t^2
+
+
+xi: xf, v, t, a
+
+xi = xf - v*t - a*t^2 
+
+
+v: xi, xf, t, a
+
+v = (xf - xi - a*t^2)/t
+
+
+t: xi, xf, a or v || vi, vf, a
+
+// For clarification, t can only be calculated (as far as we care anyway), when either a or v = 0 The following equations apply to those cases
+
+t = (xf - xi)/v         (a = 0)
+
+t = sqrt((xi - xf)/a)   (v = 0)
+
+t = (vf - vi)/a         (separate case, clarifying comment does not apply to this)
+
+
+a: xi, xf, v, t || vi, vf, t or d
+
+a = (xf - xi - v*t)/t^2
+
+a = (vf - vi)/t
+
+a = (vf^2 - vi^2)/2d
+
+
+vi: vf, t, a or d
+
+vi = vf - at
+
+vi = sqrt(vf^2 - 2ad)
+
+
+vf: vi, t, a or d
+
+vf = vi + at
+
+vf = sqrt(vi^2 + 2ad)
+
+
+d: vi, vf, a
+
+d = (vf^2 - vi^2)/2a
+
+//This quantity (distance) is also equivalent to xf - xi, might make understanding certain things easier.
+
