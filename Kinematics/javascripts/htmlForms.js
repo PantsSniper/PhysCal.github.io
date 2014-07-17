@@ -3,11 +3,12 @@ function userChoseInitialPosition() {
 }
 
 function userChoseFinalPosition() {
-    document.getElementById("mainForm").innerHTML = "Paragraph changedB.";
+    document.getElementById("mainForm").innerHTML = "paragraph changed final position";
 }
 
 function userChoseVelocity() {
-    document.getElementById("mainForm").innerHTML = "Paragraph changedC.";
+    var html = '<form id="mainForm" style="text-align:center">xi: <input type="text"/><br/><br/>xf: <input type="text"/><br/><br/>t: <input type="text"/><br/><br/>a: <input type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
+    document.getElementById("mainForm").innerHTML = html;
 }
 
 function userChoseTime() {
