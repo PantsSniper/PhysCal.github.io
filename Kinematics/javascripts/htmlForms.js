@@ -8,7 +8,9 @@ function userChoseFinalPosition() {
 
 function userChoseVelocity() {
     var leftHTML = '<form id="leftForm" style="text-align:center">xi: <input id="xi" type="text"/><br/><br/>xf: <input id="xf" type="text"/><br/><br/>t: <input id="t" type="text"/><br/><br/>a: <input id="a" type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
+    var rightHTML = '';
     document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("rightForm").innerHTML = rightHTML;
 }
 
 function userChoseTime() {
