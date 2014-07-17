@@ -7,8 +7,8 @@ function userChoseFinalPosition() {
 }
 
 function userChoseVelocity() {
-    var html = '<form id="mainForm" style="text-align:center">xi: <input type="text"/><br/><br/>xf: <input type="text"/><br/><br/>t: <input type="text"/><br/><br/>a: <input type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
-    document.getElementById("mainForm").innerHTML = html;
+    var leftHTML = '<form id="leftForm" style="text-align:center">xi: <input type="text"/><br/><br/>xf: <input type="text"/><br/><br/>t: <input type="text"/><br/><br/>a: <input type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
+    document.getElementById("leftForm").innerHTML = leftHTML;
 }
 
 function userChoseTime() {
