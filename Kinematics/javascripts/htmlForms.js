@@ -7,7 +7,7 @@ function userChoseFinalPosition() {
 }
 
 function userChoseVelocity() {
-    var leftHTML = '<form id="leftForm" style="text-align:center">xi: <input type="text"/><br/><br/>xf: <input type="text"/><br/><br/>t: <input type="text"/><br/><br/>a: <input type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
+    var leftHTML = '<form id="leftForm" style="text-align:center">xi: <input id="xi" type="text"/><br/><br/>xf: <input id="xf" type="text"/><br/><br/>t: <input id="t" type="text"/><br/><br/>a: <input id="a" type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
     document.getElementById("leftForm").innerHTML = leftHTML;
 }
 
@@ -24,7 +24,10 @@ function userChoseInitialVelocity() {
 }
 
 function userChoseFinalVelocity() {
-    document.getElementById("mainForm").innerHTML = "Paragraph changedG";
+    var leftHTML = '<form id="leftForm" style="text-align:center">vi: <input id="vi" type="text"/><br/><br/>t: <input id="t" type="text"/><br/><br/>d: <input id="d" type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
+    var rightHTML= '<form id="leftForm" style="text-align:center">vi: <input id="vi" type="text"/><br/><br/>t: <input id="t" type="text"/><br/><br/>a: <input id="a" type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
+    document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("rightForm").innerHTML = rightHTML;
 }
 
 function userChoseDistance() {
