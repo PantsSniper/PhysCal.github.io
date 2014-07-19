@@ -37,17 +37,18 @@
 		<!-- Location of radio button options -->
 		<script src="javascripts/htmlForms.js"></script>
 		<div style="text-align:center;">
-			<input type="radio" onclick="alert('Selected Intial Position');" name="group1" value="xi" checked> Initial Position
-			<input type="radio" onclick="alert('Selected Final Position');" name="group1" value="xf"> Final Position
+			<input type="radio" onclick="userChoseInitialPosition();" name="group1" value="xi" checked> Initial Position
+			<input type="radio" onclick="userChoseFinalPosition();" name="group1" value="xf"> Final Position
 			<input type="radio" onclick="userChoseVelocity();" name="group1" value="v"> Velocity
-			<input type="radio" onclick="alert('Selected Acceleration');" name="group1" value="t"> Acceleration
+			<input type="radio" onclick="userChoseAcceleration();" name="group1" value="t"> Acceleration
 			<br/>
-			<input type="radio" onclick="alert('Selected Time');" name="group1" value="a"> Time
-			<input type="radio" onclick="alert('Selected Initial Velocity');" name="group1" value="vi"> Initial Velocity
+			<input type="radio" onclick="userChoseTime();" name="group1" value="a"> Time
+			<input type="radio" onclick="userChoseInitialVelocity();" name="group1" value="vi"> Initial Velocity
 			<input type="radio" onclick="userChoseFinalVelocity()" name="group1" value="vf"> Final Velocity
-			<input type="radio" onclick="alert('Selected Distance travelled');" name="group1" value="d"> Distance travelled
+			<input type="radio" onclick="userChoseDistance();" name="group1" value="d"> Distance travelled
 		</div>
         <!-- Used as a seperator for asthetic purposes -->
+        
         <pre><code>
         </code></pre>
         

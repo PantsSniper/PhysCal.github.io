@@ -1,37 +1,129 @@
+//complete - awaiting check from sam
 function userChoseInitialPosition() {
-    document.getElementById("mainForm").innerHTML = "Paragraph changedA.";
+    var leftHTML = '<form id="leftForm" style="text-align:center">\
+                    xf: <input id="xf" type="text"/><br/>\
+                    v: <input id="v" type="text"/><br/>\
+                    t: <input id="t" type="text"/><br/>\
+                    a: <input id="a" type="text"/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+                    
+    var rightHTML= '<form id="leftForm" style="text-align:center">\
+                    </form>';
+    document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("rightForm").innerHTML = rightHTML;
 }
 
+//complete - awaiting check from sam
 function userChoseFinalPosition() {
-    document.getElementById("mainForm").innerHTML = "paragraph changed final position";
+     var leftHTML = '<form id="leftForm" style="text-align:center">\
+                    xf: <input id="xf" type="text"/><br/>\
+                    v: <input id="v" type="text"/><br/>\
+                    t: <input id="t" type="text"/><br/>\
+                    a: <input id="a" type="text"/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+                    
+    var rightHTML= '<form id="leftForm" style="text-align:center">\
+                    </form>';
+    document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("rightForm").innerHTML = rightHTML;
 }
 
+//complete - awaiting check from sam
 function userChoseVelocity() {
-    var leftHTML = '<form id="leftForm" style="text-align:center">xi: <input id="xi" type="text"/><br/><br/>xf: <input id="xf" type="text"/><br/><br/>t: <input id="t" type="text"/><br/><br/>a: <input id="a" type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
-    var rightHTML = '';
+     var leftHTML = '<form id="leftForm" style="text-align:center">\
+                    xi: <input id="xi" type="text"/><br/><br/>\
+                    xf: <input id="xf" type="text"/><br/>\
+                    t: <input id="t" type="text"/><br/>\
+                    a: <input id="a" type="text"/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+                    
+    var rightHTML= '<form id="leftForm" style="text-align:center">\
+                    </form>';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
 
+//partially complete - awaiting check from sam
 function userChoseTime() {
-    document.getElementById("mainForm").innerHTML = "Paragraph changedD.";
-}
-
-function userChoseAcceleration() {
-    document.getElementById("mainForm").innerHTML = "Paragraph changedE.";
-}
-
-function userChoseInitialVelocity() {
-    document.getElementById("mainForm").innerHTML = "Paragraph changedF.";
-}
-
-function userChoseFinalVelocity() {
-    var leftHTML = '<form id="leftForm" style="text-align:center">vi: <input id="vi" type="text"/><br/><br/>t: <input id="t" type="text"/><br/><br/>d: <input id="d" type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
-    var rightHTML= '<form id="leftForm" style="text-align:center">vi: <input id="vi" type="text"/><br/><br/>t: <input id="t" type="text"/><br/><br/>a: <input id="a" type="text"/><br/><br/><input type="submit" value="calculate"/></form>';
+    var leftHTML = '<form id="leftForm" style="text-align:center">\
+                    xi: <input id="xi" type="text"/><br/><br/>\
+                    xf: <input id="xf" type="text"/><br/> \
+                    Either v: <input id="v" type="text"/><br/>\
+                    Or a: <input id="a" type="text"/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+                    
+    var rightHTML= '<form id="leftForm" style="text-align:center">\
+                    vi: <input id="vi" type="text"/><br/><br/>\
+                    vf: <input id="vf" type="text"/><br/><br/>\
+                    a: <input id="a" type="text"/><br/><br/>\
+                    <input type="submit" value="calculate"/></form>';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
 
+//partially complete - awatiting check from sam
+function userChoseAcceleration() {
+     var leftHTML = '<form id="leftForm" style="text-align:center">\
+                    xi: <input id="xi" type="text"/><br/><br/>\
+                    xf: <input id="xf" type="text"/><br/><br/>\
+                    v: <input id="v" type="text"/><br/><br/>\
+                    t: <input id="t" type="text"/><br/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+                    
+    var rightHTML= '<form id="leftForm" style="text-align:center">\
+                    vi: <input id="vi" type="text"/><br/><br/>\
+                    vf: <input id="vf" type="text"/><br/><br/>\
+                    Either t: <input id="t" type="text"/><br/><br/>\
+                    Or d: <input id="d" type="text"/><br/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+    document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("rightForm").innerHTML = rightHTML;
+}
+
+//complete
+function userChoseInitialVelocity() {
+     var leftHTML = '<form id="leftForm" style="text-align:center">\
+                    vf: <input id="vf" type="text"/><br/><br/>\
+                    t: <input id="t" type="text"/><br/><br/>\
+                    a: <input id="a" type="text"/><br/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+                    
+    var rightHTML= '<form id="leftForm" style="text-align:center">\
+                    vf: <input id="vf" type="text"/><br/><br/>\
+                    t: <input id="t" type="text"/><br/><br/>\
+                    d: <input id="d" type="text"/><br/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+    document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("rightForm").innerHTML = rightHTML;
+}
+
+//complete
+function userChoseFinalVelocity() {
+     var leftHTML = '<form id="leftForm" style="text-align:center">\
+                    vi: <input id="vi" type="text"/><br/><br/>\
+                    t: <input id="t" type="text"/><br/><br/>\
+                    a: <input id="a" type="text"/><br/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+                    
+    var rightHTML= '<form id="leftForm" style="text-align:center">\
+                    vi: <input id="vf" type="text"/><br/><br/>\
+                    t: <input id="t" type="text"/><br/><br/>\
+                    d: <input id="d" type="text"/><br/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+    document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("rightForm").innerHTML = rightHTML;
+}
+
+//complete
 function userChoseDistance() {
-    document.getElementById("mainForm").innerHTML = "Paragraph changedH";
+     var leftHTML = '<form id="leftForm" style="text-align:center">\
+                    vi: <input id="vi" type="text"/><br/><br/>\
+                    vf: <input id="vf" type="text"/><br/><br/>\
+                    a: <input id="a" type="text"/><br/><br/>\
+                    <input type="submit" value="calculate"/></form>';
+                    
+    var rightHTML= '<form id="leftForm" style="text-align:center">\
+                    </form>';
+    document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("rightForm").innerHTML = rightHTML;
 }
