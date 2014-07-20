@@ -1,25 +1,26 @@
 //complete - awaiting check from sam
+//<div id="leftBlock" style="height:230px;width:50%;float:left;">
 function userChoseInitialPosition() {
-    var leftHTML = '<form id="leftForm" style="text-align:center">\
-                    xi: <input id="xi" type="text"/><br/>\
-                    v: <input id="v" type="text"/><br/>\
-                    t: <input id="t" type="text"/><br/>\
-                    a: <input id="a" type="text"/><br/>\
+    var HTML = '<form id="leftForm" style="text-align:center">\
+                    xi: <input id="xi" type="text"/><br/><br/>\
+                    v: <input id="v" type="text"/><br/><br/>\
+                    t: <input id="t" type="text"/><br/><br/>\
+                    a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
     var rightHTML= '<form id="leftForm" style="text-align:center">\
                     </form>';
-    document.getElementById("leftForm").innerHTML = leftHTML;
+    document.getElementById("leftForm").innerHTML = HTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
 
 //complete - awaiting check from sam
 function userChoseFinalPosition() {
      var leftHTML = '<form id="leftForm" style="text-align:center">\
-                    xf: <input id="xf" type="text"/><br/>\
-                    v: <input id="v" type="text"/><br/>\
-                    t: <input id="t" type="text"/><br/>\
-                    a: <input id="a" type="text"/><br/>\
+                    xf: <input id="xf" type="text"/><br/><br/>\
+                    v: <input id="v" type="text"/><br/><br/>\
+                    t: <input id="t" type="text"/><br/><br/>\
+                    a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
     var rightHTML= '<form id="leftForm" style="text-align:center">\
@@ -32,9 +33,9 @@ function userChoseFinalPosition() {
 function userChoseVelocity() {
      var leftHTML = '<form id="leftForm" style="text-align:center">\
                     xi: <input id="xi" type="text"/><br/><br/>\
-                    xf: <input id="xf" type="text"/><br/>\
-                    t: <input id="t" type="text"/><br/>\
-                    a: <input id="a" type="text"/><br/>\
+                    xf: <input id="xf" type="text"/><br/><br/>\
+                    t: <input id="t" type="text"/><br/><br/>\
+                    a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
     var rightHTML= '<form id="leftForm" style="text-align:center">\
@@ -47,9 +48,9 @@ function userChoseVelocity() {
 function userChoseTime() {
     var leftHTML = '<form id="leftForm" style="text-align:center">\
                     xi: <input id="xi" type="text"/><br/><br/>\
-                    xf: <input id="xf" type="text"/><br/> \
-                    Either v: <input id="v" type="text"/><br/>\
-                    Or a: <input id="a" type="text"/><br/>\
+                    xf: <input id="xf" type="text"/><br/><br/>\
+                    Either v: <input id="v" type="text"/><br/><br/>\
+                    Or a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
     var rightHTML= '<form id="leftForm" style="text-align:center">\
