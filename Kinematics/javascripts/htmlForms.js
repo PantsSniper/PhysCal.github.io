@@ -12,8 +12,10 @@ function userChoseInitialPosition() {
                     a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center;background-color:yellow;">\
+    var rightHTML= '<form id="rightForm" style="text-align:center;background-color:yellow;">\
                     </form>';  
+    document.getElementById("leftBlock").style.width = '100%';
+    document.getElementById("rightBlock").style.width = '0%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
@@ -27,8 +29,10 @@ function userChoseFinalPosition() {
                     a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center">\
+    var rightHTML= '<form id="rightForm" style="text-align:center">\
                     </form>';
+    document.getElementById("leftBlock").style.width = '100%';
+    document.getElementById("rightBlock").style.width = '0%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
@@ -42,8 +46,10 @@ function userChoseVelocity() {
                     a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center">\
+    var rightHTML= '<form id="rightForm" style="text-align:center">\
                     </form>';
+    document.getElementById("leftBlock").style.width = '100%';
+    document.getElementById("rightBlock").style.width = '0%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
@@ -57,11 +63,13 @@ function userChoseTime() {
                     Or a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center">\
+    var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vi: <input id="vi" type="text"/><br/><br/>\
                     vf: <input id="vf" type="text"/><br/><br/>\
                     a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
+    document.getElementById("leftBlock").style.width = '50%';
+    document.getElementById("rightBlock").style.width = '50%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
@@ -75,12 +83,14 @@ function userChoseAcceleration() {
                     t: <input id="t" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center">\
+    var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vi: <input id="vi" type="text"/><br/><br/>\
                     vf: <input id="vf" type="text"/><br/><br/>\
                     Either t: <input id="t" type="text"/><br/><br/>\
                     Or d: <input id="d" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
+    document.getElementById("leftBlock").style.width = '50%';
+    document.getElementById("rightBlock").style.width = '50%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
@@ -93,11 +103,13 @@ function userChoseInitialVelocity() {
                     a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center">\
+    var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vf: <input id="vf" type="text"/><br/><br/>\
                     t: <input id="t" type="text"/><br/><br/>\
                     d: <input id="d" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
+    document.getElementById("leftBlock").style.width = '50%';
+    document.getElementById("rightBlock").style.width = '50%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
@@ -110,11 +122,13 @@ function userChoseFinalVelocity() {
                     a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center">\
+    var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vi: <input id="vf" type="text"/><br/><br/>\
                     t: <input id="t" type="text"/><br/><br/>\
                     d: <input id="d" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
+    document.getElementById("leftBlock").style.width = '50%';
+    document.getElementById("rightBlock").style.width = '50%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
@@ -127,8 +141,10 @@ function userChoseDistance() {
                     a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center">\
+    var rightHTML= '<form id="rightForm" style="text-align:center">\
                     </form>';
+    document.getElementById("leftBlock").style.width = '100%';
+    document.getElementById("rightBlock").style.width = '0%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
