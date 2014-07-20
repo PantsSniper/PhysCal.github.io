@@ -3,25 +3,18 @@
 //7/20/2014
 //Maintained on GitHub
 
-//Global variables, removes style properties from divs specified
-var removeStyleLeft = '<div id="leftBlock" style="">';
-var removeStyleRight = '<div id="rightBlock" style="">';
-//Adds multi-box styles
-var addStyleLeft = '<div id="leftBlock" style="height:230px;width:50%;float:right;">';
-var addStyleRight = '<div id="rightBlock" style="height:230px;width:50%;float:right;">';
-
 //Dynamic Web page changes on Initial Position radio button selection
 function userChoseInitialPosition() {
-    var HTML = '<form id="leftForm" style="text-align:center">\
+    var leftHTML = '<form id="leftForm" style="text-align:center">\
                     xi: <input id="xi" type="text"/><br/><br/>\
                     v: <input id="v" type="text"/><br/><br/>\
                     t: <input id="t" type="text"/><br/><br/>\
                     a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
-    var rightHTML= '<form id="leftForm" style="text-align:center">\
-                    </form>';       
-    document.getElementById("leftForm").innerHTML = HTML;
+    var rightHTML= '<form id="leftForm" style="text-align:center;background-color:yellow;">\
+                    </form>';  
+    document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
 }
 
