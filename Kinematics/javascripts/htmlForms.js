@@ -63,10 +63,12 @@ function userChoseTime() {
                     Or a: <input id="a" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
+                    //add <br/><br/> when either or is consolidated
     var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vi: <input id="vi" type="text"/><br/><br/>\
                     vf: <input id="vf" type="text"/><br/><br/>\
                     a: <input id="a" type="text"/><br/><br/>\
+                    <br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
     document.getElementById("leftBlock").style.width = '50%';
     document.getElementById("rightBlock").style.width = '50%';
@@ -83,6 +85,7 @@ function userChoseAcceleration() {
                     t: <input id="t" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
+                    //add <br/><br/> when either or is consolidated
     var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vi: <input id="vi" type="text"/><br/><br/>\
                     vf: <input id="vf" type="text"/><br/><br/>\
@@ -101,12 +104,14 @@ function userChoseInitialVelocity() {
                     vf: <input id="vf" type="text"/><br/><br/>\
                     t: <input id="t" type="text"/><br/><br/>\
                     a: <input id="a" type="text"/><br/><br/>\
+                    <br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
     var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vf: <input id="vf" type="text"/><br/><br/>\
                     t: <input id="t" type="text"/><br/><br/>\
                     d: <input id="d" type="text"/><br/><br/>\
+                    <br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
     document.getElementById("leftBlock").style.width = '50%';
     document.getElementById("rightBlock").style.width = '50%';
@@ -120,12 +125,14 @@ function userChoseFinalVelocity() {
                     vi: <input id="vi" type="text"/><br/><br/>\
                     t: <input id="t" type="text"/><br/><br/>\
                     a: <input id="a" type="text"/><br/><br/>\
+                    <br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
     var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vi: <input id="vf" type="text"/><br/><br/>\
                     t: <input id="t" type="text"/><br/><br/>\
                     d: <input id="d" type="text"/><br/><br/>\
+                    <br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
     document.getElementById("leftBlock").style.width = '50%';
     document.getElementById("rightBlock").style.width = '50%';
@@ -139,6 +146,7 @@ function userChoseDistance() {
                     vi: <input id="vi" type="text"/><br/><br/>\
                     vf: <input id="vf" type="text"/><br/><br/>\
                     a: <input id="a" type="text"/><br/><br/>\
+                    <br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
     var rightHTML= '<form id="rightForm" style="text-align:center">\
