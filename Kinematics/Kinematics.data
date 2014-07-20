@@ -17,12 +17,12 @@ xf = xi + vt +(1/2)at^2
 
 xi: xf, v, t, a
 
-xi = xf - v*t - a*t^2 
+xi = xf - v*t - (1/2)a*t^2 
 
 
 v: xi, xf, t, a
 
-v = (xf - xi - a*t^2)/t
+v = (xf - xi - (1/2)a*t^2)/t
 
 
 t: xi, xf, a or v || vi, vf, a
@@ -31,7 +31,7 @@ t: xi, xf, a or v || vi, vf, a
 
 t = (xf - xi)/v         (a = 0)
 
-t = sqrt((xi - xf)/a)   (v = 0)
+t = 2*sqrt((xi - xf)/a)   (v = 0)
 
 t = (vf - vi)/a         (separate case, clarifying comment does not apply to this)
 
