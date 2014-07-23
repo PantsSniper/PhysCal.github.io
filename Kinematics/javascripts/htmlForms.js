@@ -2,7 +2,7 @@
 //Steven Gantz
 //7/20/2014
 //Maintained on GitHub
-
+//Error check
 //Dynamic Web page changes on Initial Position radio button selection
 function userChoseInitialPosition() {
     var leftHTML = '<form id="leftForm" style="text-align:center">\
