@@ -59,8 +59,11 @@ function userChoseTime() {
     var leftHTML = '<form id="leftForm" style="text-align:center">\
                     xi: <input id="xi" type="text"/><br/><br/>\
                     xf: <input id="xf" type="text"/><br/><br/>\
-                    Either v: <input id="v" type="text"/><br/><br/>\
-                    Or a: <input id="a" type="text"/><br/><br/>\
+                    <select>\
+                        <option value="v">v</option>\
+                        <option value="a">a</option>\
+                    </select>\
+                    <input id="vora" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
                     //add <br/><br/> when either or is consolidated
@@ -89,8 +92,11 @@ function userChoseAcceleration() {
     var rightHTML= '<form id="rightForm" style="text-align:center">\
                     vi: <input id="vi" type="text"/><br/><br/>\
                     vf: <input id="vf" type="text"/><br/><br/>\
-                    Either t: <input id="t" type="text"/><br/><br/>\
-                    Or d: <input id="d" type="text"/><br/><br/>\
+                    <select>\
+                        <option value="t">t</option>\
+                        <option value="d">d</option>\
+                    </select>\
+                    <input id="dort" type="text"/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
     document.getElementById("leftBlock").style.width = '50%';
     document.getElementById("rightBlock").style.width = '50%';
