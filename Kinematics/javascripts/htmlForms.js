@@ -18,7 +18,6 @@ function userChoseInitialPosition() {
     document.getElementById("rightBlock").style.width = '0%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
-    document.getElementById("resultname").innerHTML = '<h3 id="resultname">Initial Position</h3>';
 }
 
 //Dynamic Web page changes on Final Position radio button selection
@@ -36,7 +35,6 @@ function userChoseFinalPosition() {
     document.getElementById("rightBlock").style.width = '0%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
-    document.getElementById("resultname").innerHTML = '<h3 id="resultname">Final Position</h3>';
 }
 
 //Dynamic Web page changes on Velocity radio button selection
@@ -54,7 +52,6 @@ function userChoseVelocity() {
     document.getElementById("rightBlock").style.width = '0%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
-    document.getElementById("resultname").innerHTML = '<h3 id="resultname">Velocity</h3>';
 }
 
 //Dynamic Web page changes on Time radio button selection
@@ -80,7 +77,6 @@ function userChoseTime() {
     document.getElementById("rightBlock").style.width = '50%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
-    document.getElementById("resultname").innerHTML = '<h3 id="resultname">Time</h3>';
 }
 
 //Dynamic Web page changes on Acceleration radio button selection
@@ -106,7 +102,6 @@ function userChoseAcceleration() {
     document.getElementById("rightBlock").style.width = '50%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
-    document.getElementById("resultname").innerHTML = '<h3 id="resultname">Acceleration</h3>';
 }
 
 //Dynamic Web page changes on Initial Velocity radio button selection
@@ -128,7 +123,6 @@ function userChoseInitialVelocity() {
     document.getElementById("rightBlock").style.width = '50%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
-    document.getElementById("resultname").innerHTML = '<h3 id="resultname">Initial Velocity</h3>';
 }
 
 //Dynamic Web page changes on FinalVelocity radio button selection
@@ -150,7 +144,6 @@ function userChoseFinalVelocity() {
     document.getElementById("rightBlock").style.width = '50%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
-    document.getElementById("resultname").innerHTML = '<h3 id="resultname">Final Velocity</h3>';
 }
 
 //Dynamic Web page changes on Distance radio button selection
@@ -168,5 +161,4 @@ function userChoseDistance() {
     document.getElementById("rightBlock").style.width = '0%';
     document.getElementById("leftForm").innerHTML = leftHTML;
     document.getElementById("rightForm").innerHTML = rightHTML;
-    document.getElementById("resultname").innerHTML = '<h3 id="resultname">Distance Travelled</h3>';
 }
