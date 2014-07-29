@@ -4,10 +4,14 @@ Existing purely for clarification purposes it can/will be edited in time to keep
 new componenets.
 
 
-Variable Selection: The first interactable element of the calculation page, the user designates a variable they want to calculate from a selection of check-able boxes
+Variable Selection: The first interactable element of the calculation page, the user designates a variable they want to 
+calculate from a selection of check-able boxes
 
-Value Entry: The second interactable element, user enters values for all other variables used in the equation necessary to calculate the variable previously selected.
+Value Entry: The second interactable element, user enters values for all other variables used in the equation necessary to 
+calculate the variable previously selected.
 
-Submit Button and Result Box: The submit button is, in our current pertinent designworks, the third and final interactable element. The user clicks on it to perform the calculation set up in the two previous elements. The final resultant value for the selected variable is then displayed in the result box.
+Submit Button and Result Box: The submit button is, in our current pertinent designworks, the third and final interactable 
+element. The user clicks on it to perform the calculation set up in the two previous elements. The final resultant value 
+for the selected variable is then displayed in the result box.
 
 
