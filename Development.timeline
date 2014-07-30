@@ -2,22 +2,22 @@ Development Timeline
 
 Proto Proto Pre Alpha Baby Stage (Prep):
 - [] gather all neccesary assets
-      - S[x] P[] Github
+      - S[x] P[x] Github
       - S[x] P[] web-enabled IDE/Text Editor
-      - S[x] P[] Knick-Knack-Knowledge of JS
+      - S[x] P[x] Knick-Knack-Knowledge of JS
       - [] First calculation to be implemented on the firstpage
       - 
 
-- [] Figure out physical design on webpage (programming calculations can occur independently, but this is important)
+- [x] Figure out physical design on webpage (programming calculations can occur independently, but this is important)
     ( Entry page with link to kinematics? first page has every calculation on it? etc. need design documentation)
     (example: first page is landing page, has links to each type of calc, navbar with kinematics button, dropdown menu with 
     individual calcs?)
 
 Proto Alpha Baby Stage (Design Implementation):
-- [] Create physical web page designs and web forms using (possibly incomplete) functions for visuals.
+- [x] Create physical web page designs and web forms using (possibly incomplete) functions for visuals.
 
 Pre Alpha Stage (Substance Implementation):
-- [] create kinematics calculation document and [] input validation document (balls flying, basic motion)
+- [x] create kinematics calculation document and [] input validation document (balls flying, basic motion)
 - [] implement kinematics calculation and [] input validation documents
 - [] complete kinematics webpage and related documents, debug and test until thoroughly tested
 
