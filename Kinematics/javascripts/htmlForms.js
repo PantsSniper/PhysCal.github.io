@@ -64,6 +64,7 @@ function userChoseTime() {
                         <option value="a">a</option>\
                     </select>\
                     <input id="vora" type="text"/><br/><br/>\
+                    <br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
                     
                     //add <br/><br/> when either or is consolidated
@@ -96,7 +97,8 @@ function userChoseAcceleration() {
                         <option value="t">t</option>\
                         <option value="d">d</option>\
                     </select>\
-                    <input id="dort" type="text"/><br/><br/>\
+                    <input id="dort" type="text"/>\
+                    <br/><br/><br/><br/>\
                     <input type="submit" value="Calculate"/></form>';
     document.getElementById("leftBlock").style.width = '50%';
     document.getElementById("rightBlock").style.width = '50%';
