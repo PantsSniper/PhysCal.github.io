@@ -36,17 +36,28 @@
           <h3 style="text-align:center;">Kinematics Calculator</h3>
 		<!-- Location of radio button options -->
 		<script src="javascripts/htmlForms.js"></script>
-		<div style="text-align:center;">
-			<input type="radio" onclick="userChoseInitialPosition();" name="group1" onload="userChoseInitialPosition();" value="xi" checked> Initial Position
-			<input type="radio" onclick="userChoseFinalPosition();" name="group1" value="xf"> Final Position
-			<input type="radio" onclick="userChoseVelocity();" name="group1" value="v"> Velocity
-			<input type="radio" onclick="userChoseAcceleration();" name="group1" value="t"> Acceleration
-			<br/>
-			<input type="radio" onclick="userChoseTime();" name="group1" value="a"> Time
-			<input type="radio" onclick="userChoseInitialVelocity();" name="group1" value="vi"> Initial Velocity
-			<input type="radio" onclick="userChoseFinalVelocity()" name="group1" value="vf"> Final Velocity
-			<input type="radio" onclick="userChoseDistance();" name="group1" value="d"> Distance travelled
-		</div>
+        <!-- Make 4 equal sized sections for radio buttons-->
+        
+        <div id="" style="height:50px;width:25%;text-align:center;float:left;">
+            <input type="radio" onclick="userChoseInitialPosition();" name="group1" onload="userChoseInitialPosition();" value="xi" checked> Initial Position
+            <br/>
+            <input type="radio" onclick="userChoseFinalPosition();" name="group1" value="xf"> Final Position
+        </div>
+        <div id="" style="height:50px;width:25%;text-align:center;float:left">
+            <input type="radio" onclick="userChoseInitialVelocity();" name="group1" value="vi"> Initial Velocity
+            <br/>
+            <input type="radio" onclick="userChoseFinalVelocity()" name="group1" value="vf"> Final Velocity
+        </div>
+        <div id="" style="height:50px;width:25%;text-align:center;float:right">
+        	<input type="radio" onclick="userChoseVelocity();" name="group1" value="v"> Velocity
+            <br/>
+            <input type="radio" onclick="userChoseAcceleration();" name="group1" value="t"> Acceleration
+        </div>
+        <div id="" style="height:50px;width:25%;text-align:center;float:right">
+        	<input type="radio" onclick="userChoseTime();" name="group1" value="a"> Time
+            <br/>
+            <input type="radio" onclick="userChoseDistance();" name="group1" value="d"> Distance travelled
+        </div>
         
         <!-- Used as a seperator for asthetic purposes -->
         <pre><code>
