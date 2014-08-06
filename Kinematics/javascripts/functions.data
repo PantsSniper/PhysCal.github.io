@@ -1,0 +1,81 @@
+
+// xf 
+
+var xf = function(xi,v,t,a)
+{
+  xi + vt +(1/2)a*Math.pow(t,2)
+}
+
+
+// xi 
+
+var xi = function(xf,v,t,,a)
+{
+  xf - v*t - (1/2)a*Math.pow(t,2)
+}
+
+
+
+// v
+
+var v = function(xf,xi,a,t)
+{
+  (xf - xi - (1/2)a*Math.pow(t,2))/t
+}
+
+
+// t
+
+var t1 = function(xf,xi,v)
+{
+  (xf - xi)/v         //(a = 0)
+}
+
+var t2 = function(xi,xf,a)
+{
+  2*Math.sqrt(((xi - xf)/a))   //(v = 0)
+}
+
+var t3 = function(vf,vi,a)
+{
+  (vf - vi)/a      //only pertinent to finding changes in velocity
+}
+
+
+// a
+
+a1 = function(xf,xi,v,t)
+{
+  (xf - xi - v*t)/((1/2)Math.pow(t,2))
+}
+
+a2 = function(vf,vi,t)
+{
+  (vf - vi)/t
+}
+
+a3 = function(vf,vi,d)
+{
+  (Math.pow(vf,2) - Math.pow(vi,2))/2d
+}
+
+
+// vi
+
+vi1 = function(vf,a,t)
+{
+  vf - at
+}
+
+vi2 = function(vf,a,d)
+{
+  vi = Math.sqrt(Math.pow(vf,2) - 2ad)
+}
+
+
+// d (as in dick)
+
+d = function(vf,vi,a)
+{
+  (Math.pow(vf,2) - Math.pow(vi,2))/2a
+}
