@@ -31,7 +31,7 @@ t: xi, xf, a or v || vi, vf, a
 
 t = (xf - xi)/v         (a = 0)
 
-t = 2*sqrt((xi - xf)/a)   (v = 0)
+t = 2*sqrt((xf - xi)/a)   (v = 0)
 
 t = (vf - vi)/a         (separate case, clarifying comment does not apply to this)
 
